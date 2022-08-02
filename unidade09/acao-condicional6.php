@@ -6,8 +6,30 @@
         <title>CURSO PHP FUNDAMENTAL</title>
     </head>
     <body>
-        <?php 
+        
+        
+<?php 
+$_dia = "segunda";
+if($_dia == "Sabado" || $_dia == "domingo"){
+    echo "Pode descansar";
+}else{
+    echo "vamos Trabalhar";
+}
+?>
 
-        ?>
+<br>
+
+<?php
+
+$idade = 18;
+$sexo  = "feminino";
+
+if($idade >= 18 && $sexo == "feminino"){
+    echo "Pode entrar";
+}else{
+    echo "entrada proibida";
+}
+?>
+
     </body>
 </html>

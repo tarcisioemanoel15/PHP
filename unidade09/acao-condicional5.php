@@ -8,6 +8,15 @@
     <body>
         <?php 
 
+        $_n1 = 7;
+        $_n2 = "7";
+
+        if($_n1 === $_n2){
+            echo "são iguais";
+        }else{
+            echo "Não iguais";
+        }
+
         ?>
     </body>
 </html>
