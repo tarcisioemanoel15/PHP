@@ -6,9 +6,9 @@
 </head>
 <body>
     <?php                    
-        for ($_contador = 1 ; $_contador < 7 ; $_contador ++) {
+        for ($_contador = 5 ; $_contador > 0 ; $_contador --) {
             $_sorteio = rand(1,60);
-            echo $_sorteio . " ";
+            echo $_sorteio . "</br> ";
         }
     ?>
 </body>
