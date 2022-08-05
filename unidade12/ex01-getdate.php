@@ -6,5 +6,17 @@
     </head>
 
     <body>
+
+        
+        <pre>
+    
+    <?php 
+date_default_timezone_set('Brazil/East');
+$_data = getdate();
+print_r($_data);
+    ?>
+</pre>
+
+
     </body>
 </html>
